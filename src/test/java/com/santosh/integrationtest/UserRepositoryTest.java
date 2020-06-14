@@ -14,7 +14,7 @@ import org.springframework.test.context.junit.jupiter.SpringExtension;
         TestRepoConfiguration.class,
         UserRepository.class
 })
-public class UserRepositoryTest extends AbstractTest{
+public class UserRepositoryTest {
 
     @Autowired
     private UserRepository userRepository;
